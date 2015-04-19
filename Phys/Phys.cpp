@@ -422,8 +422,8 @@ void DemoApp::RunMessageLoop()
 	Circle testCircle( Vector2( 10.0, 10.0 ), 10.0 );
 	Circle testCircle2( Vector2( 50.0, 10.0 ), 20.0 );
 
-	Line testLine( Vector( -200.0, 0.0 ), Vector( 200.0, 0.0 ), Vector( 0.0, -50.0 ) );
-	Line testLine2( Vector( 200.0, 0.0 ), Vector( 400.0, 200.0 ), Vector( 0.0, -50.0 ) );
+	Line testLine( Vector( -200.0, 0.0 ), Vector( 800.0, 0.0 ), Vector( 0.0, -50.0 ) );
+	Line testLine2( Vector( 800.0, 0.0 ), Vector( 1600.0, 800.0 ), Vector( 0.0, -50.0 ) );
 	Line testLine3( Vector( 0.0, 200.0 ), Vector( 0.0, 0.0 ), Vector( 0.0, -50.0 ) );
 
 	testCircle.SetVelocity( Vector( 20.0, 20.0 ) );
@@ -442,16 +442,16 @@ void DemoApp::RunMessageLoop()
 	srand(1);
 
 	Scalar minRadius = 2.0;
-	Scalar maxRadius = 15.0;
+	Scalar maxRadius = 30.0;
 
-	int iNumColumns = 7;
-	int iNumRows = 7;
+	int iNumColumns = 15;
+	int iNumRows = 15;
 
-	Scalar xStart = 50.0;
-	Scalar yStart = 0.0;
+	Scalar xStart = 800.0;
+	Scalar yStart = 800.0;
 
-	Scalar xSpan = 200.0;
-	Scalar ySpan = 200.0;
+	Scalar xSpan = 800.0;
+	Scalar ySpan = 800.0;
 
 	for ( int x = 0; x < iNumColumns; x++ )
 	{

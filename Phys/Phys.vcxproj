@@ -14,6 +14,7 @@
     <ProjectGuid>{FF6F1D5B-5A0A-4273-BB50-CE1DC231B9BE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Phys</RootNamespace>
+    <ProjectName>Phys</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

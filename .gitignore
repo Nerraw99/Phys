@@ -40,4 +40,15 @@ $RECYCLE.BIN/
 .AppleDesktop
 Network Trash Folder
 Temporary Items
+
 .apdisk
+*.opensdf
+*.obj
+*.pch
+*.res
+*.tlog
+*.exe
+*.pdb
+*.suo
+*.log
+*.sdf

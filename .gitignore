@@ -52,3 +52,5 @@ Release/*
 *.suo
 *.log
 *.sdf
+Phys.sdf
+Debug/
